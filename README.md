@@ -35,15 +35,33 @@
 ## 📁프로젝트 구조
 
 ```
-├─models
-├─src
-	├─models
-	├─ensembles
-	├─data
-├─submit
-├─main.py
-├─ensemble.py
-├─requirements.txt
+├──code
+│   ├─data
+│   │   ├─images
+│   │   ├─books.csv
+│   │   ├─users.csv
+│   │   ├─train_ratings.csv
+│   │   └─test_ratings.csv
+│   ├─models
+│   ├─src
+│   │   ├─models
+│   │   │   ├─_models.py
+│   │   │   ├─context_models.py
+│   │   │   ├─dl_models.py
+│   │   │   ├─image_models.py
+│   │   │   └─text_models.py
+│   │   ├─ensembles
+│   │   │   └─ensembles.py
+│   │   ├─data
+│   │   │   ├─context_data.py
+│   │   │   ├─dl_data.py
+│   │   │   ├─image_data.py
+│   │   │   └─text_data.py_models.py
+│   │   └─utils.py
+│   ├─submit
+│   ├─main.py
+│   ├─ensemble.py
+│   ├─requirements.txt
 ```
 
 
